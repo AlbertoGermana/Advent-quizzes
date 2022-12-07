@@ -14,7 +14,7 @@ for (let i = 0; i < sections.length; i++) {
     let b0 = Number(second_pair.split("-")[0]);
     let b1 = Number(second_pair.split("-")[1]);
 
-    if ( (a0 <= b0 && a1 >= b1)
+    if ( (a0 <= b0 && a1 >= b1) ||
     (b0 <= a0 && b1 >= a1)){
         Day4_part1++;
     }
